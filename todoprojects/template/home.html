@@ -46,6 +46,7 @@
                 <div class="card-body">
                     <h5 class=card-title">{{i.name}}</h5>
                     <p><b>{{i.priority}}</b></p>
+                    <p><b>{{i.date}}</b></p>
                     <a class="btn btn-outline-dark" href="{% url 'delete' task.id %}"><b>Done</b></a>
                     <a class="btn btn-outline-danger" href="{% url 'update' task.id %}"><b>update</b></a>
                 </div>
